@@ -28,10 +28,10 @@ Urban Air Mobility (UAM) relies on highly battery-constrained eVTOL aircraft. En
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/sivalakshmiveesamin-code/evtol-stochastic-airspeed-optimization.git](https://github.com/sivalakshmiveesamin-code/evtol-stochastic-airspeed-optimization.git)
+   git clone https://github.com/sivalakshmiveesamin-code/evtol-stochastic-airspeed-optimization.git
 
 1. Ensure you have the necessary R packages installed (ggplot2, dplyr, lubridate).
 2. Make sure VOBL.csv is in the same directory as the script.
 3. Run the script via your preferred IDE (RStudio) or command line:
-
+```bash
 Rscript optimize_route.R
