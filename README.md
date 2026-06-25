@@ -34,5 +34,5 @@ Urban Air Mobility (UAM) relies on highly battery-constrained eVTOL aircraft. En
 3. Make sure `VOBL.csv` is in the same directory as the script.
 4. Run the script via your preferred IDE (RStudio) or command line:
    ```bash
-   Rscript optimize_route.R
+   Rscript proj_eVTOL.R
    ```
