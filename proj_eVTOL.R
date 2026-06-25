@@ -1,5 +1,3 @@
-setwd("C:/Users/Siva Lakshmi Veesam/OneDrive/Desktop/ONM")
-
 library(ggplot2)
 library(dplyr)
 library(lubridate)
@@ -69,6 +67,7 @@ T_max <- 1800.0
 # The Expected Energy Objective Function
 expected_energy <- function(v) {
   # Formula: (v - mu)^3 + 3(v - mu)sigma^2
+  # Models the expected drag factor under stochastic wind using: (v - mu)^3 + 3(v - mu)sigma^2
   expected_drag_factor <- (v - mu_wind)^3 + 3 * (v - mu_wind) * sigma_sq_wind
   time_in_air <- distances_m / v
   energy_per_route <- k_drag * expected_drag_factor * time_in_air
